@@ -31,15 +31,8 @@ main{
   border-bottom:dotted 3px rgb(236,122,122)
 }
 .contents h2::before{
-  content: '';
-  display: inline-block;
-  position: relative;
-  top: -2px;
-  right: 2px;
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
-  background: rgb(239,111,139);
+  content: '●';
+  color: rgb(239,111,139);
 }
 .contents p:nth-of-type(2)::first-letter{
   font-weight: bold;
@@ -73,4 +66,5 @@ a:hover{
     flex-direction: column;
   }
   
+
 }
