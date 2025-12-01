@@ -104,7 +104,7 @@ PC用のスタイル
     display: block;
     color: #ffffff;
   }
-  #nav-sp a::hover{
+  #nav-sp a:hover{
     text-decoration: underline;
   }
   #nav-sp .menu{
@@ -118,4 +118,5 @@ PC用のスタイル
     background-repeat: no-repeat;
     background-position: top right;
   }
+
 }
